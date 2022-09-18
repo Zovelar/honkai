@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "spaceGrotesk";
+    src: url("/fonts/SpaceGrotesk-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "spaceGrotesk" ,sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(248, 249, 250,.7);
+    color: black;
+    position:fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-between;*/
+    align-items: center;
+    min-height: 10vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    font-size: 20px;
+}
+.nav a{
+    padding: 5px 5px;
+    color: black;
+}
+.nav a:hover{
+    background-color: #202020;
+    color: whitesmoke;
+}
+.characters{
+    background-color: #202020;
+
+}
+.characters2{
+    background-color: #F8F9FA;
+}
+.section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+.title{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.title2{
+    color: #202020;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.character-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.personaje{
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+}
+.personaje img{
+    object-fit: cover;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+}

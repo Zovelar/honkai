@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "spaceGrotesk";
+    src: url("/fonts/SpaceGrotesk-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "spaceGrotesk" ,sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(43, 45, 66,.7);
+    color: whitesmoke;
+    position:fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-between;*/
+    align-items: center;
+    min-height: 10vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+    font-size: 20px;
+}
+.nav a{
+    padding: 5px 5px;
+    color: whitesmoke;
+}
+.nav a:hover{
+    background-color: #D90429;
+    color: black;
+}
+.home{
+    background-color: #D90429;
+    background-image: url("/imagenes/historia/fukaHimeko.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home h1{
+    color: black;
+    font-size: 80px;
+    padding: 30px 30px;
+    text-align: center;
+}
+.section{
+    min-height: 50vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.content{
+    font-size: 20px;
+    background-color: #2B2D42;
+    color: white;
+}
+.events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events-content{
+    border-left: #2B2D42 solid 5px;
+    border-right: #2B2D42 solid 5px;
+}
+.title{
+    border-top: #2B2D42 solid 5px;
+    border-bottom: #2B2D42 solid 5px;
+    background-color: #D90429;
+    color: white;
+    padding: 15px 15px;
+    min-height: 10vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    border-top: #2B2D42 solid 5px;
+    border-bottom: #2B2D42 solid 5px;
+    background-color: #8D99AE;
+    color: white;
+    padding: 10px 10px;
+    min-height: 10vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history{
+    border-top: #2B2D42 solid 5px;
+    border-bottom: #2B2D42 solid 5px;
+    min-height: 30vh;
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    padding: 0 0;
+}
+.history-container{
+    padding: 30px 30px;
+}
+.list{
+    border-top: #2B2D42 solid 5px;
+    border-bottom: #2B2D42 solid 5px;
+    min-height: 20vh;
+    max-height: 20vh;
+    padding: 0 0;
+    display: grid;
+    grid-template-columns: 1fr 60%;
+    font-size: 20px;
+}
+.list-content{
+    background-color: #EDF2F4;
+    color: #2B2D42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallpaper-event{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 20vh;
+    max-height: 20vh;
+}
+
